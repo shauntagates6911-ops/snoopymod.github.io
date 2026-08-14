@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SnoopyMod • Project View</title>
+  <link rel="stylesheet" href="ui.css">
+  <script src="projectView.js"></script>
+</head>
+
+<body>
+
+  <header class="topbar">
+    <h1>🪐 SnoopyMod Project Viewer</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="editor.html">Editor</a>
+      <a href="project-view.html">Project View</a>
+    </nav>
+  </header>
+
+  <main class="project-view-container">
+
+    <section class="loading-screen" id="loadingScreen">
+      <h2>Loading Project…</h2>
+      <div class="loader"></div>
+    </section>
+
+    <section class="project-stage" id="projectStage" style="display:none;">
+      <canvas id="stageCanvas" width="480" height="360"></canvas>
+
+      <div class="controls">
+        <button id="runBtn" class="run-btn">▶️</button>
+        <button id="stopBtn" class="stop-btn">⏸️</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>SnoopyMod © 2026 • Cosmic Project Viewer</p>
+  </footer>
+
+</body>
+</html>
