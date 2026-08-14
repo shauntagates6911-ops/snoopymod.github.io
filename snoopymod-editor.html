@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SnoopyMod • Editor</title>
+  <link rel="stylesheet" href="ui.css">
+  <script src="account.js"></script>
+  <script src="censorship.js"></script>
+  <script src="editor.js"></script>
+</head>
+
+<body>
+
+  <header class="topbar">
+    <h1>🎨 SnoopyMod Editor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="editor.html">Editor</a>
+      <a href="forums.html">Forums</a>
+      <a href="publish.html">Publish</a>
+    </nav>
+  </header>
+
+  <main class="editor-container">
+
+    <section class="sidebar">
+      <h2>Tools</h2>
+      <button class="tool-btn">Sprites</button>
+      <button class="tool-btn">Costumes</button>
+      <button class="tool-btn">Sounds</button>
+      <button class="tool-btn">Variables</button>
+      <button class="tool-btn">Extensions</button>
+    </section>
+    {
+  "name": "moveForward",
+  "category": "motion",
+  "color": "#4A9FFF",
+  "inputs": ["steps"]
+},
+{
+  "name": "turnAngle",
+  "category": "motion",
+  "color": "#4A9FFF",
+  "inputs": ["degrees"]
+},
+{
+  "name": "sayBubble",
+  "category": "looks",
+  "color": "#A86CFF",
+  "inputs": ["message"]
+},
+{
+  "name": "waitSeconds",
+  "category": "control",
+  "color": "#FFB84A",
+  "inputs": ["seconds"]
+}
+
+  {
+  "name": "fetchURL",
+  "category": "network",
+  "color": "#00C2A8",
+  "inputs": ["url"]
+},
+{
+  "name": "setVariableGlobal",
+  "category": "variables",
+  "color": "#00C2A8",
+  "inputs": ["name", "value"]
+},
+{
+  "name": "playSoundPitch",
+  "category": "sound",
+  "color": "#00C2A8",
+  "inputs": ["sound", "pitch"]
+},
+{
+  "name": "cloneSprite",
+  "category": "advanced",
+  "color": "#00C2A8",
+  "inputs": ["sprite"]
+}
+{
+  "name": "snoopySpeak",
+  "category": "snoopy",
+  "color": "#C45CFF",
+  "inputs": ["text"]
+},
+{
+  "name": "cosmicWarp",
+  "category": "snoopy",
+  "color": "#C45CFF",
+  "inputs": ["intensity"]
+},
+{
+  "name": "orbitSprite",
+  "category": "space",
+  "color": "#9D4BFF",
+  "inputs": ["radius", "speed"]
+},
+{
+  "name": "phaseShift",
+  "category": "corruption",
+  "color": "#7A00FF",
+  "inputs": ["level"]
+}
+
+
+    <section class="workspace">
+      <h2>Workspace</h2>
+      <div id="workspaceArea">
+        <p>Start creating your SnoopyMod project!</p>
+      </div>
+    </section>
+
+    <section class="stage">
+      <h2>Stage</h2>
+      <div id="stageArea">
+        <p>Stage preview will appear here.</p>
+      </div>
+    </section>
+<!-- SnoopyMod Costumes Screen -->
+<div id="costumes-screen" class="editor-screen" style="display:none;">
+
+  <h2 class="screen-title">Costumes</h2>
+
+  <div class="costume-toolbar">
+    <button class="costume-btn">Add Costume</button>
+    <button class="costume-btn">Delete Costume</button>
+    <button class="costume-btn">Duplicate Costume</button>
+    <button class="costume-btn">Edit Costume</button>
+  </div>
+
+  <div class="costume-list">
+    <div class="costume-item">Costume 1</div>
+    <div class="costume-item">Costume 2</div>
+    <div class="costume-item">Costume 3</div>
+  </div>
+
+</div>
+
+  </main>
+
+  <footer>
+    <p>SnoopyMod © 2026 • Cosmic Editor System</p>
+  </footer>
+  <button class="tool-btn" id="costumesTab">Costumes</button>
+
+
+</body>
+</html>
