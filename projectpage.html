@@ -42,3 +42,35 @@
 
 </body>
 </html>
+import EmoteHandler from ".emote.js";
+function runProject() {
+  if (!projectLoaded) return;
+
+  running = true;
+
+  const canvas = document.getElementById("stageCanvas");
+  const ctx = canvas.getContext("2d");
+
+  ctx.fillStyle = "#9D4BFF";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Example project text with emotes
+  const projectText = "Project Running :fastsnail: :angry:";
+
+  // Parse emotes → HTML <img> tags
+  const parsed = EmoteHandler.parse(projectText);
+
+  // Draw parsed emotes as text placeholders
+  ctx.fillStyle = "white";
+  ctx.font = "24px Arial";
+  ctx.fillText(parsed.replace(/<img[^>]+>/g, "[EMOTE]"), 120, 180);
+}
+chatBox.innerHTML += `<div>${message}</div>`;
+chatBox.innerHTML += `<div>${EmoteHandler.parse(message)}</div>`;
+.snoopy-emote {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  image-rendering: pixelated;
+  margin: 0 4px;
+}
