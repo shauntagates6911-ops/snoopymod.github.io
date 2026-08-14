@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SnoopyMod • Publish</title>
+  <link rel="stylesheet" href="ui.css">
+  <script src="account.js"></script>
+  <script src="censorship.js"></script>
+  <script src="publish.js"></script>
+</head>
+
+<body>
+
+  <!-- Cosmic Purple Bar -->
+  <header class="topbar">
+    <h1>🪐 Publish Your SnoopyMod Project</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="editor.html">Editor</a>
+      <a href="forums.html">Forums</a>
+      <a href="publish.html">Publish</a>
+    </nav>
+  </header>
+
+  <main class="publish-container">
+
+    <section class="upload-box">
+      <h2>Select Project File</h2>
+      <input type="file" id="projectFile" accept=".json,.sb3">
+      <p class="hint">Upload your SnoopyMod project file to publish it.</p>
+    </section>
+
+    <section class="preview-box">
+      <h2>Project Preview</h2>
+      <div id="previewArea">
+        <p>No project loaded yet.</p>
+      </div>
+    </section>
+
+    <section class="publish-action">
+      <button id="publishBtn">Publish Project</button>
+      <p id="publishStatus"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>SnoopyMod © 2026 • Cosmic Publishing System</p>
+  </footer>
+
+</body>
+</html>
