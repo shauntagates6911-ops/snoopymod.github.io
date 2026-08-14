@@ -1,0 +1,298 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "code": "US",
+      "continent": "North America",
+      "flag": "assets/flags/us.png"
+    },
+    {
+      "name": "Canada",
+      "code": "CA",
+      "continent": "North America",
+      "flag": "assets/flags/ca.png"
+    },
+    {
+      "name": "Mexico",
+      "code": "MX",
+      "continent": "North America",
+      "flag": "assets/flags/mx.png"
+    },
+    {
+      "name": "United Kingdom",
+      "code": "UK",
+      "continent": "Europe",
+      "flag": "assets/flags/uk.png"
+    },
+    {
+      "name": "France",
+      "code": "FR",
+      "continent": "Europe",
+      "flag": "assets/flags/fr.png"
+    },
+    {
+      "name": "Germany",
+      "code": "DE",
+      "continent": "Europe",
+      "flag": "assets/flags/de.png"
+    },
+    {
+      "name": "Japan",
+      "code": "JP",
+      "continent": "Asia",
+      "flag": "assets/flags/jp.png"
+    },
+    {
+      "name": "South Korea",
+      "code": "KR",
+      "continent": "Asia",
+      "flag": "assets/flags/kr.png"
+    },
+    {
+      "name": "Australia",
+      "code": "AU",
+      "continent": "Oceania",
+      "flag": "assets/flags/au.png"
+    }
+  ]
+}
+{
+  "name": "Brazil",
+  "code": "BR",
+  "continent": "South America",
+  "flag": "assets/flags/br.png"
+},
+{
+  "name": "Argentina",
+  "code": "AR",
+  "continent": "South America",
+  "flag": "assets/flags/ar.png"
+},
+{
+  "name": "Chile",
+  "code": "CL",
+  "continent": "South America",
+  "flag": "assets/flags/cl.png"
+},
+{
+  "name": "China",
+  "code": "CN",
+  "continent": "Asia",
+  "flag": "assets/flags/cn.png"
+},
+{
+  "name": "India",
+  "code": "IN",
+  "continent": "Asia",
+  "flag": "assets/flags/in.png"
+},
+{
+  "name": "Philippines",
+  "code": "PH",
+  "continent": "Asia",
+  "flag": "assets/flags/ph.png"
+},
+{
+  "name": "Italy",
+  "code": "IT",
+  "continent": "Europe",
+  "flag": "assets/flags/it.png"
+},
+{
+  "name": "Spain",
+  "code": "ES",
+  "continent": "Europe",
+  "flag": "assets/flags/es.png"
+},
+{
+  "name": "Sweden",
+  "code": "SE",
+  "continent": "Europe",
+  "flag": "assets/flags/se.png"
+},
+{
+  "name": "Norway",
+  "code": "NO",
+  "continent": "Europe",
+  "flag": "assets/flags/no.png"
+},
+{
+  "name": "Russia",
+  "code": "RU",
+  "continent": "Europe/Asia",
+  "flag": "assets/flags/ru.png"
+},
+{
+  "name": "South Africa",
+  "code": "ZA",
+  "continent": "Africa",
+  "flag": "assets/flags/za.png"
+},
+{
+  "name": "Nigeria",
+  "code": "NG",
+  "continent": "Africa",
+  "flag": "assets/flags/ng.png"
+},
+{
+  "name": "Egypt",
+  "code": "EG",
+  "continent": "Africa",
+  "flag": "assets/flags/eg.png"
+},
+{
+  "name": "Saudi Arabia",
+  "code": "SA",
+  "continent": "Asia",
+  "flag": "assets/flags/sa.png"
+},
+{
+  "name": "Turkey",
+  "code": "TR",
+  "continent": "Europe/Asia",
+  "flag": "assets/flags/tr.png"
+},
+{
+  "name": "New Zealand",
+  "code": "NZ",
+  "continent": "Oceania",
+  "flag": "assets/flags/nz.png"
+},
+{
+  "name": "Indonesia",
+  "code": "ID",
+  "continent": "Asia",
+  "flag": "assets/flags/id.png"
+},
+{
+  "name": "Thailand",
+  "code": "TH",
+  "continent": "Asia",
+  "flag": "assets/flags/th.png"
+},
+{
+  "name": "Vietnam",
+  "code": "VN",
+  "continent": "Asia",
+  "flag": "assets/flags/vn.png"
+}
+{
+  "name": "Poland",
+  "code": "PL",
+  "continent": "Europe",
+  "flag": "assets/flags/pl.png"
+},
+{
+  "name": "Portugal",
+  "code": "PT",
+  "continent": "Europe",
+  "flag": "assets/flags/pt.png"
+},
+{
+  "name": "Netherlands",
+  "code": "NL",
+  "continent": "Europe",
+  "flag": "assets/flags/nl.png"
+},
+{
+  "name": "Belgium",
+  "code": "BE",
+  "continent": "Europe",
+  "flag": "assets/flags/be.png"
+},
+{
+  "name": "Switzerland",
+  "code": "CH",
+  "continent": "Europe",
+  "flag": "assets/flags/ch.png"
+},
+{
+  "name": "Austria",
+  "code": "AT",
+  "continent": "Europe",
+  "flag": "assets/flags/at.png"
+},
+{
+  "name": "Denmark",
+  "code": "DK",
+  "continent": "Europe",
+  "flag": "assets/flags/dk.png"
+},
+{
+  "name": "Finland",
+  "code": "FI",
+  "continent": "Europe",
+  "flag": "assets/flags/fi.png"
+},
+{
+  "name": "Greece",
+  "code": "GR",
+  "continent": "Europe",
+  "flag": "assets/flags/gr.png"
+},
+{
+  "name": "Ireland",
+  "code": "IE",
+  "continent": "Europe",
+  "flag": "assets/flags/ie.png"
+},
+{
+  "name": "Kenya",
+  "code": "KE",
+  "continent": "Africa",
+  "flag": "assets/flags/ke.png"
+},
+{
+  "name": "Ethiopia",
+  "code": "ET",
+  "continent": "Africa",
+  "flag": "assets/flags/et.png"
+},
+{
+  "name": "Ghana",
+  "code": "GH",
+  "continent": "Africa",
+  "flag": "assets/flags/gh.png"
+},
+{
+  "name": "Morocco",
+  "code": "MA",
+  "continent": "Africa",
+  "flag": "assets/flags/ma.png"
+},
+{
+  "name": "Pakistan",
+  "code": "PK",
+  "continent": "Asia",
+  "flag": "assets/flags/pk.png"
+},
+{
+  "name": "Bangladesh",
+  "code": "BD",
+  "continent": "Asia",
+  "flag": "assets/flags/bd.png"
+},
+{
+  "name": "Singapore",
+  "code": "SG",
+  "continent": "Asia",
+  "flag": "assets/flags/sg.png"
+},
+{
+  "name": "Malaysia",
+  "code": "MY",
+  "continent": "Asia",
+  "flag": "assets/flags/my.png"
+},
+{
+  "name": "Israel",
+  "code": "IL",
+  "continent": "Asia",
+  "flag": "assets/flags/il.png"
+},
+{
+  "name": "United Arab Emirates",
+  "code": "AE",
+  "continent": "Asia",
+  "flag": "assets/flags/ae.png"
+}
