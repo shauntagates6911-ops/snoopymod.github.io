@@ -1,0 +1,18 @@
+/* ================================
+   SnoopyMod UI.css
+   Full rewrite with purple bar theme
+   ================================ */
+
+/* ---------- Global Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Root Theme ---------- */
+:root {
+  --bg-main: #0b0b12;
+  --bg-panel: #141424;
+  --bg-panel-alt: #1b1b30;
+ 
